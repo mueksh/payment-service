@@ -19,7 +19,7 @@ import java.time.LocalDateTime;
 public class Payment {
     @Id
     private String id;
-    private Long orderId;
+    private String orderId;
     private String paymentMethod;
     private PaymentStatus status;
     private String transactionId;
